@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "SliderView.h"
 #import "slideFunction.h"
+#import "FilterView.h"
 
-@interface HomeViewController : UIViewController<SliderViewDelegate>
+@interface HomeViewController : UIViewController<SliderViewDelegate, FilterViewDelegate>
 
 @end

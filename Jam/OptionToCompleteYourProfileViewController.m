@@ -50,7 +50,8 @@
 }
 
 -(void)completeYorProfile{
-    
+    ProfileViewController *pvc = [[ProfileViewController alloc] init];
+    [self.navigationController pushViewController:pvc animated:YES];
 }
 
 /*

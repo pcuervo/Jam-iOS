@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "HomeViewController.h"
+#import "ProfileViewController.h"
 
 @interface OptionToCompleteYourProfileViewController : UIViewController
 
